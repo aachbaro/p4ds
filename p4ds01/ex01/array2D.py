@@ -16,8 +16,8 @@ def slice_me(family: list, start: int, end: int) -> list:
     try:
         if not isinstance(family, list):
             raise TypeError("family must be a list")
-        if not family:
-            raise ValueError("family cant be empty")
+        # if not family:
+        #     raise ValueError("family cant be empty")
         sublist_length = len(family[0])
         if not all(len(sublist) == sublist_length for sublist in family):
             raise ValueError("all list in family must have the same length")

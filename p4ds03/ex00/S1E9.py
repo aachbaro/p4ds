@@ -9,6 +9,7 @@ class Character(ABC):
         
     @abstractmethod
     def die(self):
+        """Abstract method to set the character to dead mode"""
         pass
     
 

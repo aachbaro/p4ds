@@ -42,6 +42,8 @@ def analyse_string(str):
 
 
 def main():
+    """Anayse a given string and gives the amount of letters 
+    (uper and lower), punctuation marks, spaces and digits"""
     try:
         if len(sys.argv) == 1:
             input_string = input("What is the text to count?\n")
